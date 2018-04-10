@@ -10,6 +10,8 @@ Memory region information does not exist in a bin file to allow creation of mult
 
 An optional start address in can be specified. This is where the binary blob will be located.
 
+The program assumes all of binary blob is designated as CODE segment type per Simple Code format.
+
 Usage: bin2sim [FILE IN] [FILE OUT] [OPTION]
 Options:
   -s [start address]        decimal address where binary data should be written (default 0).
